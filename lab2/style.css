@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7f2;
+  color: #2d3a2e;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: #2e7d32;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.cart {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.catalog h2 {
+  width: 100%;
+  margin: 0;
+}
+
+.catalog .error {
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  background: #fdecea;
+  color: #b71c1c;
+  font-weight: bold;
+}
+
+.card {
+  width: 220px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin: 10px 0 6px;
+}
+
+.card p {
+  margin: 0 0 10px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #2e7d32;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #1b5e20;
+}
